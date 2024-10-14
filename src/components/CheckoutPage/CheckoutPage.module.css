@@ -1,0 +1,35 @@
+.checkoutPage {
+    background: none;
+  }
+  
+  .bannerImage {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .productSummary {
+    margin-bottom: 20px;
+  }
+  
+  .placeOrderButton {
+    width: 100%;
+  }
+  
+  .serviceRow {
+    margin-top: 80px;
+background-color: antiquewhite;
+padding:  50px;
+width: 100%;
+  }
+  
+  .serviceCol {
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
+  
+  .serviceCol i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  

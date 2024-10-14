@@ -1,0 +1,134 @@
+.cartPage {
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f1e7;
+    padding: 20px 20px;
+    width: 870px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+    justify-content: center;
+    padding-left: 100px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .logoImage1 {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .breadcrumb {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .cartContent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .cartItems {
+    flex: 2;
+  }
+  
+  .cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .cartItemImage {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .cartItemDetails {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  
+  .quantityControls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .removeButton {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .subtotal {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .cartTotals {
+    flex: 1;
+    padding: 20px;
+    background: #f9f1e7;
+    border-radius: 8px;
+  }
+  
+  .checkoutButton {
+    background: #b88e2f;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .features {
+    display: flex;
+    justify-content: space-around;
+    background: #FAF3EA;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  .featureItem {
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #B88E2F;
+  }
+  
+  .featureItem h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .featureItem p {
+    font-size: 14px;
+    color: #777;
+  }

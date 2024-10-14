@@ -1,0 +1,62 @@
+.Group78png {
+    width: 100%; 
+    display: block; 
+    margin-top: 40px; 
+  }
+
+  .customButton {
+    border: 1px solid #B88E2F; 
+    background-color: #B88E2F; 
+    color: white; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .customButton:hover {
+    background-color: white; 
+    color: #B88E2F; 
+  }
+  /* //////////////////////////////////////////////////// */
+  .servicesContainer {
+    background-color: #FAF3EA;
+    border: 1px dotted #ccc;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .servicebox {
+    text-align: center;
+    padding: 10px;
+    background-color: none;
+    width: 20%;
+    display: flex; 
+  }
+  
+  .serviceBoxIcon {
+    font-size: 50px;
+    color: #B88E2F;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .servicebox h3 {
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .servicebox p {
+    color: #666;
+  }
+  
+  .serviceBoxContent {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  

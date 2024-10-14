@@ -1,0 +1,165 @@
+.productdetails {
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .details {
+    padding: 20px;
+  }
+  
+  .details h5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .fontSm {
+    font-size: 14px;
+  }
+  
+  .textMain {
+    color: #4fa94d;
+  }
+  
+  .ratingColor {
+    color: #ffcc00;
+  }
+  
+  .btn {
+    margin-right: 10px;
+  }
+  
+  .additionalInfo {
+    margin-top: 20px;
+  }
+  
+  .additionalInfo p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .mainImage {
+    width: 20%;
+    height: auto;
+  }
+  
+  .thumbnailContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .thumbnail {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    margin-left: 400px;
+  }
+  
+  .productTitle {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .sizeContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .sizeBox {
+    background: #B88E2F;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .quantityBox {
+    background: #f0f0f0;
+    padding: 5px 10px;
+    margin-left: 10px;
+  }
+  
+  .divider {
+    width: 605.01px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  /* //////////////////////////////////////////////// */
+  .textcenter{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+  }
+  
+ .Group109{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 100px;
+  }
+  .mt10 {
+    margin-top: 10px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .divider{
+    width: 100%;
+  }
+/* ////////////////////////////////////////////////// */
+.discountcircle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  z-index: 1;
+}
+
+.btnbtnshowmore:hover {
+  background-color: #A77A1F;
+  cursor: pointer;
+}
+/* //////////////////////////////////////////// */
+.dimmed {
+  opacity: 0.5;
+}
+.cart-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-buttons button {
+  margin: 5px;
+}
